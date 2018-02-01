@@ -7,8 +7,8 @@ package com.mazaiting.facepp;
 
 public class Config {
     /**秘钥*/
-    public static final String API_KEY = "rv5Pab4EsmqWFft6tBKK5GqvsBGerHeb";
-    public static final String API_SECRET = "OVNhOVgsxOhq4wsYzSj7-88ZD1BO3vHP";
+    public static final String API_KEY = "";
+    public static final String API_SECRET = "";
     public static final String TOKEN = "token";
     public static final String MULTIPART_FORM_DATA = "multipart/form-data";
     public static final String BASE_URL = "https://api-cn.faceplusplus.com/";
