@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.mazaiting.facepp">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:name=".FaceApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- 人脸检测 -->
+        <activity android:name=".funcation.face.detect.DetectActivity">
+        </activity>
+        <!-- 人脸比较 -->
+        <activity android:name=".funcation.face.compare.CompareActivity">
+        </activity>
+        <activity android:name=".funcation.face.faceset.FaceSetActivity">
+        </activity>
+        <activity android:name=".funcation.face.search.SearchActivity">
+        </activity>
+        <activity android:name=".funcation.humanbody.detect.HumanDetectActivity">
+        </activity>
+        <activity android:name=".funcation.humanbody.segment.SegmentActivity">
+        </activity>
+        <activity android:name=".funcation.humanbody.gesture.GestureActivity">
+        </activity>
+        <activity android:name=".funcation.ocr.id.IdActivity">
+        </activity>
+        <activity android:name=".funcation.ocr.driver.DriverActivity">
+        </activity>
+        <activity android:name=".funcation.ocr.vehicle.VehicleActivity">
+        </activity>
+        <activity android:name=".funcation.ocr.bank.BankActivity">
+        </activity>
+        <activity android:name=".funcation.picture.scene.SceneActivity">
+        </activity>
+        <activity android:name=".funcation.picture.text.TextActivity">
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
